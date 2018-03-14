@@ -26,8 +26,7 @@ Spree.config do |config|
   	})
   config.currency = 'USD'
   Spree::Price.update_all(currency: "USD")
-  #config.logo = "spree/store.png"
-  #Spree::Config.set(logo: "spree/store.png")
+  config.logo = "/logo.png"
 end
 
 Spree.user_class = "Spree::User"
