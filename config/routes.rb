@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
 
-scope "(:locale)", :locale => /ar|en/ do
+
 
  #   root :to => 'page#index'
  #   get "page/index"
@@ -13,7 +13,6 @@ scope "(:locale)", :locale => /ar|en/ do
   mount Spree::Core::Engine, at: '/'
           # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 
-  end
  
 end
 
