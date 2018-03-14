@@ -1,0 +1,1 @@
+Spree::PermittedAttributes.address_attributes << [:gender, :neighborhood]
